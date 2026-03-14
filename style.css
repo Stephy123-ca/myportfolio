@@ -281,7 +281,6 @@ border-radius: 30px;
 /* skill-section */
 .main-skill{
     width:95%;
-    height:100vh;
 padding:30px;
 margin-left:65px;
 display: grid;
@@ -299,7 +298,7 @@ grid-gap:20px;
 }
 .mySkill{
       text-align: center;
-    margin-top:75px;
+    margin-top:50px;
   font-family: "Poppins", sans-serif;
   font-size: 45px;
     background-color: rgb(220, 215, 219);
@@ -350,7 +349,7 @@ border:solid 5px yellow;
 color: yellow;
 }
 .logo-list:nth-child(4) .per-Text{
-background-color:rgba(0, 128, 0, 0.267);
+background-color:rgba(7, 45, 7, 0.267);
 border:solid 5px green;
 color: green;
 }
@@ -359,12 +358,23 @@ background-color:rgba(128, 0, 128, 0.237);
 border:solid 5px purple;
 color: purple;
 }
+.logo-list:nth-child(7) .per-Text{
+background-color:rgba(50, 50, 198, 0.167);
+border:solid 5px blue;
+color: blue;
+}
+.logo-list:nth-child(8) .per-Text{
+background-color:rgba(199, 199, 52, 0.155);
+border:solid 5px yellow;
+color: yellow;
+}
+
 
 /* timeline-section */
 .timeline{
     display:block;
     width:80%;
-    margin:280px auto;
+    margin:150px auto;
 }
 .timeline .heading{
     margin-bottom:150px;
