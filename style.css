@@ -118,16 +118,15 @@ position:absolute;
 } 
 /* project section */
 .proj-section1{
-    width:100%;
-    height:100vh;
+    width:100%; 
  padding:20px;
  background-color:  rgb(160, 158, 164);
 }
 .proj{
     position: relative;
     width:350px;
-    height:400px;
-    padding:10px;
+    height:350px;
+    padding:7px;
 text-align: center;
 padding-top: 50px;
 display:flex;
@@ -135,10 +134,11 @@ justify-content: center;
 align-items: center;
 background-color: rgb(220, 215, 219);
 border-radius: 20px;
+margin-bottom: 10px;
 }
 .proj-content{
-    margin:15px;
-    margin-bottom: 30px;
+    margin:9px;
+ margin-top:15px;
     opacity:0.3;
     transition: 1s;
     position: absolute;
@@ -167,16 +167,16 @@ margin-left:370px;
 .proj-section2{
     width:100%;
     margin:10px;
-    margin-top:25px;
+    margin-top:100px;
    display:grid;
     grid-template-columns: repeat(3,1fr);
-    gap:40px;
+    gap:20px;
 }
 .codes{
     font-size: 18px;
     font-weight: 700;
     text-align: justify;
-   margin:50px;
+    margin-top: 55px;
    margin-left:70px;
 }
 
@@ -213,7 +213,7 @@ border-radius: 20px;
 .repo{
  position: absolute;
 text-align: center;
-top:310px;
+top:290px;
 transition: 1s;
 padding:10px;
 
@@ -627,4 +627,25 @@ html{
 ::-webkit-scrollbar-thumb{
       background-color: rgb(72, 63, 89);
     border-radius: 10px;
+}
+.information{
+    margin-top: 1.3rem;
+}
+.inforBox{
+    margin-bottom: 10px;
+}
+.inforBox>span{
+    margin-left: 1rem;
+}
+/* .loadcv{
+    margin-top: 15px;
+} */
+ .load-a{
+text-decoration: none;
+color:black;
+display: inline-block;
+margin:20px;
+background-color: blanchedalmond;
+padding:10px;
+border-radius:10px;
 }

@@ -15,6 +15,13 @@
     />
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animate-style -->
+       <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- Aos animation -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <header>
     <nav>
@@ -36,8 +43,10 @@
          
               helloo.. <br />
               I'm  <span class="name">Stephy Antony
-          </span> <br /><span class="notes">I develop Full Stack Web Applications, using</span><span class="s1">MERN STACK</span>
+          </span> <br /><span class="notes">I develop Full Stack Web Applications, using</span><span class="s1" data-aos="zoom-in">MERN STACK</span>
+          <br> 
           </h1>
+          <a class="load-a" href="./images/Stephy.pdf" download><h1 class="loadcv">download CV<i class="fa-solid fa-circle-down"></i></h1></a>
         </div>
         <div class="name-section">
           <img class="im2" src="./images/mypic.jpeg" alt="" />
@@ -45,12 +54,18 @@
       </div>
     </section>
     <section id="about">
-        <h1 class="about-me">ABOUT ME</h1>
+        <h1 class="about-me" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">ABOUT ME</h1>
         <div class="about-section">
-            <div class="about-img">
+            <div class="about-img" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                 <img class="abt-img" src="./images/img6.jpg" alt="">
             </div>
-            <div class="about-content">
+            <div class="about-content" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                 <p class="about-p">Im a skilled software developer with high knowledge of javaScript, and frameworks like React, Node.js, Express.js, Angular.js and MongoDB. Im a quick learner and collaborate closely with clients to create efficient,scalable and user-friendly solutions that solve real-world problems. Lets work together to bring your ideas to life </p>
             </div>
         </div>
@@ -58,14 +73,14 @@
      <section id="projects">
       <div class="proj-section1">
         <div class="myProject">
-          <h1 class="proj-topic">SOME OF MY PROJECTS</h1>
+          <h1 class="proj-topic" data-aos="fade-down">SOME OF MY PROJECTS</h1>
         </div>
         <div class="proj-section2">
-        <div class="proj">
+        <div class="proj" >
               <div class="proj-img2"></div>
             <h4 class="proj-head">
          HOSPITAL MANAGMENT SYSTEM</h4>          
-            <p class="proj-content">
+            <p class="proj-content" data-aos="fade-down">
               a web based platform that enables users,including patients,doctors, and admins, to manage vaious aspects of hospital operations through a centralized system. Patients can register,schedule appoinments, access their health records, and manage billing information.doctors can view details,manage appoinment etcc <br><br>
          <span class="codes">  #java,#html</span>
             </p>
@@ -74,7 +89,7 @@
           <div class="proj">
             <div class="proj-img2"></div>
             <h4 class="proj-head"> PLAGARISM</h4>
-            <p class="proj-content">
+            <p class="proj-content" data-aos="fade-down">
               Plagarism software project aim to detect instances of plagarism in text by comparing it against a vast database of sources, The administrator's role is crucial for managing and maintaining the system,including user access,DB management, and ensuring the software's optimal performance.
               <br><br>
          <span class="codes">#asp.net,#php</span>
@@ -85,45 +100,55 @@
           <div class="proj">
               <div class="proj-img2"></div>
             <h4 class="proj-head"> HOUSE RENTAL MANAGEMENT SYSTEM</h4>
-            <p class="proj-content">
-           Its a web based platform that enables allow users to manage various aspects of rental process,both as property owner and tenants. Property owners can list available properties,manage tenant information,track payments etc,tenants can search for properties,apply for rentals,pay rent online and communicate with property owner. <br><br>
+            <p class="proj-content" data-aos="fade-down">
+           Its a web based platform that enables allow users to manage various aspects of rental process,both as property owner and tenants. Property owners can list available properties,manage tenant information,track payments etc,tenants can search for properties,apply for rentals,pay rent online and communicate with property owner.<br>
            <span class="codes">#php-framework,#php</span>
             </p>
      <div class="repo"><a class="repo-btn" href="">Git Repo</a></div>
           </div>
+          
 
-        
+                  <div class="proj">
+              <div class="proj-img2"></div>
+            <h4 class="proj-head">HOTEL ROOM BOOKING SYSTEM</h4>
+            <p class="proj-content" data-aos="fade-down">
+Designed and developed a hotel booking web app enabling users to browse rooms, check availability, and complete reservations; integrated responsive UI and database management to ensure smooth booking
+experience and data consistency.<br>
+           <span class="codes">#React,#node.js,#express.js,<br>#mongodb,#tailwind,#html5,css3</span>
+            </p>
+     <div class="repo"><a class="repo-btn" href="">Git Repo</a></div>
+          </div>
         </div>
       </div> 
     </section> 
      <section id="skills"> 
         <h1 class="mySkill">SKILLS</h1>
        <div class="main-skill">
-        <div class="logo-list">
+        <div class="logo-list" data-aos="fade-down-right">
      <h2 class="skill-head">HTML</h2>
            <div class="html-img"> <img class="logos" src="./images/htmlblack.png" alt=""></div>
          <h3 class="per-Text">92%</h3>
             
         </div>
-         <div class="logo-list">
+         <div class="logo-list" data-aos="fade-down">
      <h2 class="skill-head">CSS</h2>
             <div class="html-img"><img class="logos" src="./images/cssblack.png" alt=""></div>
          <h3 class="per-Text">98%</h3>
             
         </div>
-         <div class="logo-list">
+         <div class="logo-list" data-aos="fade-down-left">
       <h2 class="skill-head">JAVASCRIPT</h2>
            <div class="html-img"> <img class="logos" src="./images/jsblack.png" alt=""></div>
          <h3 class="per-Text">75%</h3>
             
         </div>
-         <div class="logo-list">
+         <div class="logo-list" data-aos="fade-down-right">
       <h2 class="skill-head">REACT JS</h2>
             <div class="html-img"><img class="logos" src="./images/reactblack.png" alt=""></div>
          <h3 class="per-Text">58%</h3>
             
         </div>
-         <div class="logo-list">
+         <div class="logo-list" data-aos="fade-down">
       <h2 class="skill-head">ANGULAR</h2>
             <div class="html-img"><img class="logos" src="./images/angularblack.png" alt=""></div>
          <h3 class="per-Text">40%</h3>
@@ -132,28 +157,28 @@
        </div>  
         <div class="timeline">
       <h1 class="heading">EDUCATION</h1>
-      <div class="card">
+      <div class="card" data-aos="flip-down">
         <div class="card-body">
           <h1 class="card-title">2010-2011</h1>
           <p class="courses">10<sup>th</sup></p>
           <h5 class="college">ST JOSEPH GIRLS HIGH SCHOOL,CHANGANACHERRY</h5>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-aos="flip-down">
         <div class="card-body">
           <h1 class="card-title">2012-2013</h1>
           <p class="courses">12<sup>th</sup></p>
         <h5 class="college">ST JOSEPH GIRLS HIGHER SECONDARY SCHOOL,CHANGANACHERRY</h5>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-aos="flip-down">
         <div class="card-body">
           <h1 class="card-title">2013-2016</h1>
           <P class="courses">BSC COMPUTER SCIENCE</P>
         <h5 class="college">ASSUMPTION COLLEGE, CHANGANACHERRY</h5>
         </div>
       </div>
-       <div class="card">
+       <div class="card" data-aos="flip-down">
         <div class="card-body">
           <h1 class="card-title">2018-2020</h1>
           <p class="courses">MCA</p>
@@ -170,43 +195,35 @@
     </div>
     <div class="iconCollection" data-aos="zoom-in-up">
         <div class="icon">
-            <a href="">
+            <a href="https://www.linkedin.com/in/stephy-antony-7b0b2b198/">
                <i class="fa-brands fa-linkedin-in brands" ></i>
             </a>
         </div>
-          <div class="icon">
-            <a href="">
-                <i class="fa-brands fa-github brands" ></i>
-            </a>
-        </div>
-          <div class="icon">
-            <a href="">
-                <i class="fa-brands fa-twitter brands" ></i>
-            </a>
-        </div>
-          <div class="icon">
-            <a href="">
-              <i class="fa-brands fa-facebook brands" ></i>
-            </a>
-        </div>
-          <div class="icon">
-            <a href="">
-                <i class="fa-brands fa-google brands" ></i>
-            </a>
-        </div>
-          <div class="icon">
-            <a href="">
-             <i class="fa-brands fa-whatsapp brands"></i>
-            </a>
-        </div>
+          <div class="information">
+                    <div class="inforBox">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Stephy Antony</span>
+                    </div>
+                       <div class="inforBox">
+                       <i class="fa-solid fa-phone"></i>
+                         <span>+91-7034890664</span>
+                    </div>
+                       <div class="inforBox">
+                       <i class="fa-solid fa-envelope"></i>
+                         <span>stephyantony005@gmail.com</span>
+                    </div>
+                </div>
     </div>
    </section>
       <footer id="footer">
-    <p id="copyright">&copy; Maria joe photography portfolio - june 2024 &reg; all right reserved </p>
+    <p id="copyright">&copy; Stephy Antony photography portfolio - june 2024 &reg; all right reserved </p>
     <div class="icon upArrow">
         <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
     </div>
    </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
